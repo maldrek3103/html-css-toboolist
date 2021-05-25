@@ -57,3 +57,14 @@ body{
     color: #c5cbd0;
     border: 1px solid #c5cbd0;
 }
+.main-section{
+    margin: 1px;
+    border-radius: 0 0 5px 5px;
+}
+ul{
+    margin-bottom: 40px;
+}
+li{
+    list-style-position: inside;
+    padding: 15px 10px;
+}
