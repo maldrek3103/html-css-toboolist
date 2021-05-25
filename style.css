@@ -38,7 +38,6 @@ body{
     vertical-align: middle;
 }
 .sub-header{
-    border: 1px solid transparent;
     border-radius: 5px 5px 0 0;
     padding: 10px 80px;
 }
@@ -60,11 +59,31 @@ body{
 .main-section{
     margin: 1px;
     border-radius: 0 0 5px 5px;
+    padding: 50px 80px 20px 80px;
+}
+h3{
+    font-size: 1.4em;
 }
 ul{
     margin-bottom: 40px;
 }
 li{
-    list-style-position: inside;
+    font-size: 1.3em;
+    list-style: none;
     padding: 15px 10px;
+}
+.mark{
+    font-size: 0.6em;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 3px 5px;
+    vertical-align: middle;
+}
+.check{
+    color: #77c9b7;
+    border: 1px solid #77c9b7;
+}
+.cross{
+    color: #ef6f67;
+    border: 1px solid #ef6f67;
 }
