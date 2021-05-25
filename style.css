@@ -8,7 +8,7 @@
 /* General */
 body{
     background-color: #f6f8f9;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-size: 16px;
 }
 .text-white{
@@ -17,17 +17,43 @@ body{
 .white-bg{
     background-color: #fff;
 }
-
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
 /* Details */
 .main-header{
-    height: 100px;
+    height: 70px;
+    padding: 10px 20px;
 }
-.logo-img{
-    height: 100px;
+#logo-img{
+    height: 100%;
+    vertical-align: middle;
 }
-.logo-text{
-    line-height: 100px;
-    font-size: 4em;
+#logo-text{
+    font-size: 3em;
+    font-weight: 700;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
+}
+.sub-header{
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 80px;
+}
+.button{
+    margin: 2px;
+    padding: 8px 15px;
+    border: 1px solid #47adf1;
+    border-radius: 5px;
+}
+#add-task{
+    background-color: #47adf1;
+    font-weight: bold;
+}
+#add-section{
+    background-color: #fff;
+    color: #c5cbd0;
+    border: 1px solid #c5cbd0;
 }
