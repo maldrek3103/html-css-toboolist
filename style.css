@@ -90,7 +90,7 @@ li{
     color: #ef6f67;
     border: 1px solid #ef6f67;
 }
-#nametag{
+.nametag{
     color: #fff;
     display: inline-block;
     font-size: 0.5em;
